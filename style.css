@@ -1,0 +1,339 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  background-color:cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Hamburger_menu{
+  display: none;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav ul li{
+  margin: 5px;
+  list-style: none;
+  color: whitesmoke;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+}
+
+/* HERO SECTION ONE */
+
+.freelancer_section_one{
+  background-color: black;
+  color: whitesmoke;
+  font-family: cursive;
+  text-align: left;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.freelancer_section_two{
+  background-color: black;
+  text-align: center;
+
+}
+
+.slider_image{
+  width: 80%;
+}
+
+.btn_about{
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.btn_quote{
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(214, 16, 16);
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+/* BEST - EXPERIENCED - CONTAINER */
+.best-experienced-container{
+  padding: 1.5rem;
+}
+
+/* CATEGORY-SECTION */
+.Category-wrapper{
+  background-color: steelblue;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.Category-wrapper section div{
+  margin: 30px;
+}
+.Category-wrapper section div img{
+ width: 40%;
+}
+
+/* ABOUT IMAGE */
+
+.about-image{
+  width: 100%;
+}
+
+.about-image-section{
+  text-align: center;
+}
+  .spering-section{
+    text-align: center;
+  }
+  .r-btn{
+    background-color: red;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  /* WORK - FREELANCER */
+  .work-image{
+    background-color: skyblue;
+    border-radius: 50px;
+  }
+.div-container-one{
+  display: flex;
+  gap: 20px;
+  margin: 15px;
+}
+.work-frelancer-section-one{
+  display: flex;
+  flex-direction: column;
+}
+.freelance-img{
+  width: 100%;
+}
+
+.work-frelancer-wrapper{
+  margin-top: 40px;
+}
+
+
+
+/* TESTIMONIAL-SECTION */
+
+.testimonial-article{
+  text-align: center;
+}
+
+.testimonial-container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.testimonial{
+  margin-top: 20px;
+  width: 300px;
+  height: 350px;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px gray;
+  padding: 1rem;
+
+}
+.testimonial-name{
+  font-family: cursive;
+  color: navy;
+}
+
+/* Footer Section */
+
+footer{
+  margin-top: 30px;
+}
+.footer-section-one{
+  background-color: black;
+  color: blue;
+  color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.footer-section-one div{
+  margin-top: 25px;
+}
+
+.footer-section-one div img{
+  margin: 5px;
+}
+
+.footer-section-two{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  padding: 2rem;
+}
+.footer-section-three{
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+
+}
+.section-3-div{
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-para{
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES - HEADER/NAVIGATION SECTION */
+
+@media (min-width:600px){
+  nav ul{
+    display: flex;
+  }
+
+  .Hamburger_menu{
+    display: none;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+/* MEDIA QUERIES - HERO SECTION ONE */
+
+@media (min-width:650px){
+  .freelancer_container{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+}
+
+@media (min-width:1200px){
+  .freelancer_section_two{
+    width: 700px;
+    /* justify-content: space-between; */
+  }
+}
+
+/* MEDIA QUERIES - BEST - EXPPERIENCED FREELANCER HERE */
+@media( min-width :600px){
+  .best-experienced-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .experience_img{
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERIES - BEST - CATEGORY SECTION */
+
+@media( min-width :600px){
+
+   .Category-container-two{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .Category-container-one{
+    display: flex;
+    justify-content: space-around;
+   }
+  .Category-wrapper section div img{
+    width: 150px;
+   }
+
+   .work-frelancer-wrapper{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .freelance-img{
+    width: 500px;
+   }
+
+.testimonial-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section-one{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-top: 100px;
+}
+
+.footer-section-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 3rem;
+}
+
+.footer-section-three-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+
+
+  
+}
+
+
